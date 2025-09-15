@@ -81,7 +81,7 @@ export default function SkinTypePage() {
               <img
                 alt="Normal Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
-                src="/normal.jpg"
+                src="skin/normal.jpg"
               />
               <h3 className="text-xl font-bold text-stone-700 mb-2">
                 Normal Skin
@@ -113,7 +113,7 @@ export default function SkinTypePage() {
               <img
                 alt="Dry Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
-                src="dryskin2.webp"
+                src="skin/dryskin2.webp"
               />
               <h3 className="text-xl font-bold text-stone-700 mb-2">
                 Dry Skin
