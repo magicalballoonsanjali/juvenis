@@ -25,7 +25,7 @@ const Navbar = () => {
   const router = useRouter();
   return (
     <>
-      <div className="flex justify-between p-2 lg:px-15 items-center sticky top-0 bg-white shadow-md">
+      <div className="flex justify-between p-2 lg:px-15 items-center sticky top-0 z-50 bg-white shadow-md">
         <div>
           <img
             src="/juvenis-logo.jpg"

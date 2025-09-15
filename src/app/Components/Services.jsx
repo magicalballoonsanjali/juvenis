@@ -13,7 +13,7 @@ const Services = () => {
 
             <div className='flex flex-wrap justify-center items-start gap-6 px-4 lg:px-12'>
 
-                <div className='flex flex-col justify-center p-5 gap-3 w-full md:w-[260px] lg:w-[30%] shadow-lg rounded-md hover:-translate-y-2 transition-transform duration-500 ease-out'>
+                <div className=' flex flex-col justify-center p-5 gap-3 w-full md:w-[260px] lg:w-[30%] shadow-lg rounded-md hover:-translate-y-2 transition-transform duration-500 ease-out'>
                     <img src="services/botox.jpg"/>
                     <Link href={""} className=''>Cosmetic Dermatology</Link>
                     <p>Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
