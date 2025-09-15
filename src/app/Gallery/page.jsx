@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react'
 
 const page = () => {
@@ -7,8 +6,7 @@ const page = () => {
   { src: "/gallery/g2.jpeg", alt: "Waiting Area" },
   { src: "/gallery/g3.jpeg", alt: "Doctor with Patient" },
   { src: "/gallery/g4.jpeg", alt: "Reception" },
-//   { src: "/gallery/clinic5.jpg", alt: "Medical Equipment" },
-//   { src: "/gallery/clinic6.jpg", alt: "Operation Room" },
+
 ];
 
   return (
@@ -26,7 +24,7 @@ const page = () => {
               key={idx}
               className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition shadow-gray-400"
             >
-              <Image
+              <img
                 src={img.src}
                 alt={img.alt}
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300 "

@@ -18,7 +18,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import { useRouter } from 'next/navigation';
-import Image from "next/image";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -27,8 +27,8 @@ const Navbar = () => {
     <>
       <div className="flex justify-between p-2 lg:px-15 items-center sticky top-0 bg-white shadow-md">
         <div>
-          <Image
-            src="https://magicalballoonsdigital.com/juvenis/img/juvenis-logo%20(1).jpg"
+          <img
+            src="/juvenis-logo.jpg"
             className="flex "
             alt="logo"
           />

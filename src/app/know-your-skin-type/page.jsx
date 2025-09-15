@@ -1,5 +1,4 @@
 // src/app/skin-type/page.jsx
-import Image from "next/image";
 import React from "react";
 
 export default function SkinTypePage() {
@@ -17,10 +16,10 @@ export default function SkinTypePage() {
           {/* step 1 */}
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex-shrink-0 bg-white rounded-full p-4 sm:mr-8 mb-4 sm:mb-0">
-              <Image
+              <img
                 alt="Person washing face"
                 className="w-40 h-40 rounded-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLM4TuWYfqFAdhE9_eMejaFFiHqaWQhIfoxf4Y89gJKuUzDwT_bVfA1aqYE9vYGlkUTeUGwtnCp3p9uTyhMcpg1YoJ8gVu8OygjW2vbdjX-zHefg0epeATIVDFjW-20kxo2i9wGifeleD0hG8gA_NNYaFgCBpx47g0CCL5hQ98h9rkTctltj7olu0k1F8AkQSDLptk6We-kiNj6Sw3ql7Z9P_8oY9Fe4Oxv_Bi4Yq169gKF-_XTe8sIBovv7B-C11GR0kNO25vfmff"
+                src="/skin/washingface.png"
               />
             </div>
             <div className="">
@@ -33,10 +32,10 @@ export default function SkinTypePage() {
           {/* step2 */}
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex-shrink-0 bg-white rounded-full p-4 sm:mr-8 mb-4 sm:mb-0">
-              <Image
+              <img
                 alt="Clock showing 2 hours"
                 className="w-40 h-40 rounded-full object-cover"
-                src="/knowyourskin-clock.png"
+                src="/skin/clock.png"
               />
             </div>
             <div>
@@ -50,10 +49,10 @@ export default function SkinTypePage() {
           {/* step-3 */}
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex-shrink-0 bg-white rounded-full p-4 sm:mr-8 mb-4 sm:mb-0">
-              <Image
+              <img
                 alt="Person patting face with finger"
                 className="w-40 h-40 rounded-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnWnq6Uyr6YHZbUJ-WLAG9_AhOC8p9nh_g47TtR5v478lwZBaKAmcUMnYMpW3MlOwSUnRXCo60xjKjhkE9YHOANfuhCM8WYerZbjNhXfmH7U5P6JVhu7e2v9frEndJsPh1LPa-qHh266sYBiYfVBNDgwy38lOkQELvWo36pFtlpK8PdkdEQlfBHRjoo04f6i0yviwa4fk2ssGvEaC6LyaGOyrhISwC7P4zyQEBbQkQDQLINTC2VF_EulhPhdDS1ccuTrLAT938Y0Km"
+                src="skin/tappingface.png"
               />
             </div>
             <div>
@@ -79,7 +78,7 @@ export default function SkinTypePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Normal Skin */}
             <div className="bg-white/80 p-6 rounded-lg flex flex-col items-center text-center">
-              <Image
+              <img
                 alt="Normal Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
                 src="/normal.jpg"
@@ -95,10 +94,10 @@ export default function SkinTypePage() {
 
             {/* Oily Skin */}
             <div className="bg-white/80 p-6 rounded-lg flex flex-col items-center text-center">
-              <Image
+              <img
                 alt="Oily Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBtQ7mXSIbsl8WmdGEK6elD-10oBKOfmUKRhMY3by8Vs7TTtd66b5z9RmfvtZ8EQqjwy0Cx9TTgOjEgXVGFX7JKo-owCDK8-mvV9bHLEr4SZrUSUVpUhADANK9oT8-JXrHbNBPteJ4Hu9zSbMBBE4b5N9tS65h7XXncZ28dMwg6A95dNmI9KMTVH0sRVSel0T99ZbDCsmOaD90Gi8fs_cTvsS6OJveIhmVWKSHstHBhdGXbsTbo-Qad9JIUdMH8ah3Uf5lWhz16S0F"
+                src="skin/oilyskin.png"
               />
               <h3 className="text-xl font-bold text-stone-700 mb-2">
                 Oily Skin
@@ -111,7 +110,7 @@ export default function SkinTypePage() {
 
             {/* Dry Skin */}
             <div className="bg-white/80 p-6 rounded-lg flex flex-col items-center text-center">
-              <Image
+              <img
                 alt="Dry Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
                 src="dryskin2.webp"
@@ -127,10 +126,10 @@ export default function SkinTypePage() {
 
             {/* Combination Skin */}
             <div className="bg-white/80 p-6 rounded-lg flex flex-col items-center text-center">
-              <Image
+              <img
                 alt="Combination Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md "
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdksVSp1HyMQq05EWX1FEetqD3Qp_egzgZZDnID8FRlqahHXyrzFr_J9OD969VO9_kUK1dR4bp_QwM_fClIahsh0kSDPk2QgPJuBG9LqIBBGBGXV8ePmvKFJmxmseCGfsSQgm_-v5xzwCPuJmsok0gZYLojdPKkdXhZBExW3-GJgwF98VruaX3pe9GKDdDDka9HHkhZLUO2btdZ6a_DtCoIs4C3qsZ7ZWrSkSOaFvZHjy_Qk9PuRx-ZFykZ326Su3cw8CY_3TNAQ0D"
+                src="skin/combinationskin.png"
               />
               <h3 className="text-xl font-bold text-stone-700 mb-2">
                 Combination Skin
