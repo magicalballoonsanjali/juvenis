@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const page = () => {
@@ -25,7 +26,7 @@ const page = () => {
               key={idx}
               className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition shadow-gray-400"
             >
-              <img
+              <Image
                 src={img.src}
                 alt={img.alt}
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300 "

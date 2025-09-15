@@ -3,12 +3,13 @@ import Navbar from '../Components/Navbar'
 import Form from '../Components/Form'
 import Footer from '../Components/Footer'
 import Copyright from '../Components/Copyright'
+import Image from 'next/image'
 const page = () => {
   return (
     <div>
      
          <div className="flex justify-center items-start flex-col p-8 lg:px-40">
-          <img src="/juvenius-bannes/female.png" alt="female" />
+          <Image src="/juvenius-bannes/female.png" alt="female" />
           <h3 className="font-semibold text-3xl text-[#1892be] ">
             Juvenis - About us
           </h3>

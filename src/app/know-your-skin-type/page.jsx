@@ -1,102 +1,10 @@
 // src/app/skin-type/page.jsx
+import Image from "next/image";
 import React from "react";
 
 export default function SkinTypePage() {
-  const skinTypes = [
-    {
-      title: "Normal Skin",
-      desc: "If your skin has no excess oil and feels normal, you have normal skin.",
-      img: "https://img.icons8.com/color/96/skin-type-1.png", // change to your own
-      bg: "bg-emerald-50",
-    },
-    {
-      title: "Oily Skin",
-      desc: "If it is oily all over the face, you have oily skin.",
-      img: "https://img.icons8.com/color/96/skin-type-2.png",
-      bg: "bg-blue-50",
-    },
-    {
-      title: "Dry Skin",
-      desc: "If there is no oiliness but your skin feels tight and itchy, you have dry skin.",
-      img: "https://img.icons8.com/color/96/skin-type-3.png",
-      bg: "bg-rose-50",
-    },
-    {
-      title: "Combination Skin",
-      desc: "If your T-zone (the skin on your forehead and nose) is oily but normal on the rest, you have combination skin.",
-      img: "https://img.icons8.com/color/96/skin-type-4.png",
-      bg: "bg-amber-50",
-    },
-  ];
+
   return (
-    // <div className="bg-[#e2b284] font-['Roboto',sans-serif] min-h-screen pt-20">
-    //   {/* this wrapper fills the screen and can scroll */}
-    //   <div className="max-w-2xl mx-auto px-4">
-    //     {/* Heading */}
-    //     <div className="bg-white/50 backdrop-blur-sm p-8 rounded-lg shadow-lg">
-    //       <div className="bg-white p-4 rounded-lg text-center mb-10">
-    //         <h1 className="text-3xl font-bold text-stone-700">
-    //           How to identify your skin type
-    //         </h1>
-    //       </div>
-
-    //       <div className="space-y-12">
-    //         {/* Step 1 */}
-    //         <div className="flex flex-col sm:flex-row sm:items-center">
-    //           <div className="flex-shrink-0 bg-white rounded-full p-4 sm:mr-8 mb-4 sm:mb-0">
-    //             <img
-    //               alt="Person washing face"
-    //               className="w-40 h-40 rounded-full object-cover"
-    //               src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLM4TuWYfqFAdhE9_eMejaFFiHqaWQhIfoxf4Y89gJKuUzDwT_bVfA1aqYE9vYGlkUTeUGwtnCp3p9uTyhMcpg1YoJ8gVu8OygjW2vbdjX-zHefg0epeATIVDFjW-20kxo2i9wGifeleD0hG8gA_NNYaFgCBpx47g0CCL5hQ98h9rkTctltj7olu0k1F8AkQSDLptk6We-kiNj6Sw3ql7Z9P_8oY9Fe4Oxv_Bi4Yq169gKF-_XTe8sIBovv7B-C11GR0kNO25vfmff"
-    //             />
-    //           </div>
-    //           <div>
-    //             <h2 className="text-stone-700 text-lg font-bold mb-2">STEP 1:</h2>
-    //             <p className="text-gray-700">
-    //               Wash your face with a gentle cleanser and pat it dry.
-    //             </p>
-    //           </div>
-    //         </div>
-
-    //         {/* Step 2 */}
-    //         <div className="flex flex-col sm:flex-row sm:items-center">
-    //           <div className="flex-shrink-0 bg-white rounded-full p-4 sm:mr-8 mb-4 sm:mb-0">
-    //             <img
-    //               alt="Clock showing 2 hours"
-    //               className="w-40 h-40 rounded-full object-cover"
-    //               src="/knowyourskin-clock.png"
-    //             />
-    //           </div>
-    //           <div>
-    //             <h2 className="text-stone-700 text-lg font-bold mb-2">STEP 2:</h2>
-    //             <p className="text-gray-700">
-    //               Do not use any products on your face and wait for 2 hours in a
-    //               non-air-conditioned room.
-    //             </p>
-    //           </div>
-    //         </div>
-
-    //         {/* Step 3 */}
-    //         <div className="flex flex-col sm:flex-row sm:items-center">
-    //           <div className="flex-shrink-0 bg-white rounded-full p-4 sm:mr-8 mb-4 sm:mb-0">
-    //             <img
-    //               alt="Person patting face with finger"
-    //               className="w-40 h-40 rounded-full object-cover"
-    //               src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnWnq6Uyr6YHZbUJ-WLAG9_AhOC8p9nh_g47TtR5v478lwZBaKAmcUMnYMpW3MlOwSUnRXCo60xjKjhkE9YHOANfuhCM8WYerZbjNhXfmH7U5P6JVhu7e2v9frEndJsPh1LPa-qHh266sYBiYfVBNDgwy38lOkQELvWo36pFtlpK8PdkdEQlfBHRjoo04f6i0yviwa4fk2ssGvEaC6LyaGOyrhISwC7P4zyQEBbQkQDQLINTC2VF_EulhPhdDS1ccuTrLAT938Y0Km"
-    //             />
-    //           </div>
-    //           <div>
-    //             <h2 className="text-stone-700 text-lg font-bold mb-2">STEP 3:</h2>
-    //             <p className="text-gray-700">
-    //               After waiting, take tissue paper or your finger and pat it on
-    //               different parts of your face.
-    //             </p>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
     <div className="bg-[#e2b284] p-5">
       <div className="flex flex-col lg:mx-40 p-10  bg-[#fff8f0]">
    
@@ -109,7 +17,7 @@ export default function SkinTypePage() {
           {/* step 1 */}
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex-shrink-0 bg-white rounded-full p-4 sm:mr-8 mb-4 sm:mb-0">
-              <img
+              <Image
                 alt="Person washing face"
                 className="w-40 h-40 rounded-full object-cover"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLM4TuWYfqFAdhE9_eMejaFFiHqaWQhIfoxf4Y89gJKuUzDwT_bVfA1aqYE9vYGlkUTeUGwtnCp3p9uTyhMcpg1YoJ8gVu8OygjW2vbdjX-zHefg0epeATIVDFjW-20kxo2i9wGifeleD0hG8gA_NNYaFgCBpx47g0CCL5hQ98h9rkTctltj7olu0k1F8AkQSDLptk6We-kiNj6Sw3ql7Z9P_8oY9Fe4Oxv_Bi4Yq169gKF-_XTe8sIBovv7B-C11GR0kNO25vfmff"
@@ -125,7 +33,7 @@ export default function SkinTypePage() {
           {/* step2 */}
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex-shrink-0 bg-white rounded-full p-4 sm:mr-8 mb-4 sm:mb-0">
-              <img
+              <Image
                 alt="Clock showing 2 hours"
                 className="w-40 h-40 rounded-full object-cover"
                 src="/knowyourskin-clock.png"
@@ -142,7 +50,7 @@ export default function SkinTypePage() {
           {/* step-3 */}
           <div className="flex flex-col lg:flex-row items-center">
             <div className="flex-shrink-0 bg-white rounded-full p-4 sm:mr-8 mb-4 sm:mb-0">
-              <img
+              <Image
                 alt="Person patting face with finger"
                 className="w-40 h-40 rounded-full object-cover"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnWnq6Uyr6YHZbUJ-WLAG9_AhOC8p9nh_g47TtR5v478lwZBaKAmcUMnYMpW3MlOwSUnRXCo60xjKjhkE9YHOANfuhCM8WYerZbjNhXfmH7U5P6JVhu7e2v9frEndJsPh1LPa-qHh266sYBiYfVBNDgwy38lOkQELvWo36pFtlpK8PdkdEQlfBHRjoo04f6i0yviwa4fk2ssGvEaC6LyaGOyrhISwC7P4zyQEBbQkQDQLINTC2VF_EulhPhdDS1ccuTrLAT938Y0Km"
@@ -171,7 +79,7 @@ export default function SkinTypePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Normal Skin */}
             <div className="bg-white/80 p-6 rounded-lg flex flex-col items-center text-center">
-              <img
+              <Image
                 alt="Normal Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
                 src="/normal.jpg"
@@ -187,7 +95,7 @@ export default function SkinTypePage() {
 
             {/* Oily Skin */}
             <div className="bg-white/80 p-6 rounded-lg flex flex-col items-center text-center">
-              <img
+              <Image
                 alt="Oily Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBtQ7mXSIbsl8WmdGEK6elD-10oBKOfmUKRhMY3by8Vs7TTtd66b5z9RmfvtZ8EQqjwy0Cx9TTgOjEgXVGFX7JKo-owCDK8-mvV9bHLEr4SZrUSUVpUhADANK9oT8-JXrHbNBPteJ4Hu9zSbMBBE4b5N9tS65h7XXncZ28dMwg6A95dNmI9KMTVH0sRVSel0T99ZbDCsmOaD90Gi8fs_cTvsS6OJveIhmVWKSHstHBhdGXbsTbo-Qad9JIUdMH8ah3Uf5lWhz16S0F"
@@ -203,7 +111,7 @@ export default function SkinTypePage() {
 
             {/* Dry Skin */}
             <div className="bg-white/80 p-6 rounded-lg flex flex-col items-center text-center">
-              <img
+              <Image
                 alt="Dry Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
                 src="dryskin2.webp"
@@ -219,7 +127,7 @@ export default function SkinTypePage() {
 
             {/* Combination Skin */}
             <div className="bg-white/80 p-6 rounded-lg flex flex-col items-center text-center">
-              <img
+              <Image
                 alt="Combination Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md "
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdksVSp1HyMQq05EWX1FEetqD3Qp_egzgZZDnID8FRlqahHXyrzFr_J9OD969VO9_kUK1dR4bp_QwM_fClIahsh0kSDPk2QgPJuBG9LqIBBGBGXV8ePmvKFJmxmseCGfsSQgm_-v5xzwCPuJmsok0gZYLojdPKkdXhZBExW3-GJgwF98VruaX3pe9GKDdDDka9HHkhZLUO2btdZ6a_DtCoIs4C3qsZ7ZWrSkSOaFvZHjy_Qk9PuRx-ZFykZ326Su3cw8CY_3TNAQ0D"

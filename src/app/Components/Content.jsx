@@ -1,4 +1,5 @@
 import { CirclePlay } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const Content = () => {
@@ -7,7 +8,7 @@ const Content = () => {
       <div className="flex flex-col mt-[990px] md:mt-[750px] lg:mt-[300px] items-center  ">
 
         <div className="flex justify-center items-center flex-col text-center">
-          <img src="/juvenius-bannes/female.png" alt="female" />
+          <Image src="/juvenius-bannes/female.png" alt="female" />
           <h3 className="font-semibold text-3xl text-[#2d2d3e] ">
             Welcome to Juvenis Experience
           </h3>
@@ -75,7 +76,7 @@ const Content = () => {
           </div>
 
           <div className="flex  items-center justify-center p-5 ">
-            <img
+            <Image
               src="/juvenius-bannes/dr.jpg"
               alt="Dr. Nilesh Goyal"
               className=" rounded-md "

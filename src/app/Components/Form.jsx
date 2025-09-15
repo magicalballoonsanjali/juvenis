@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import React from "react";
 import toast from "react-hot-toast";
 
@@ -42,7 +43,7 @@ const Form = () => {
   return (
     <>
      <div id="contact" className='flex justify-center items-center flex-col text-center p-8'>
-                <img src="/juvenius-bannes/female.png" alt='female'/>
+                <Image src="/juvenius-bannes/female.png" alt='female'/>
                 <h3 className='font-semibold text-3xl text-[#2d2d3e] '>We Are Always Ready to Help You. Book An Appointment</h3>
                 <p className='font-normal p-2 text-[#888a8f]'>Consult our trusted doctor for dedicated, one-on-one care tailored to your needs.</p>
             </div>
@@ -95,7 +96,7 @@ const Form = () => {
 
         {/* Right Side: Image */}
         <div className="flex justify-center items-end">
-          <img
+          <Image
             src="/juvenius-bannes/contact-img.png" // replace with your actual path
             alt="Doctors"
             className="w-full max-w-sm object-contain"
