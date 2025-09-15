@@ -52,7 +52,7 @@ export default function SkinTypePage() {
               <img
                 alt="Person patting face with finger"
                 className="w-40 h-40 rounded-full object-cover"
-                src="skin/tappingface.png"
+                src="/skin/tappingface.png"
               />
             </div>
             <div>
@@ -81,7 +81,7 @@ export default function SkinTypePage() {
               <img
                 alt="Normal Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
-                src="skin/normal.jpg"
+                src="/skin/normal.jpg"
               />
               <h3 className="text-xl font-bold text-stone-700 mb-2">
                 Normal Skin
@@ -97,7 +97,7 @@ export default function SkinTypePage() {
               <img
                 alt="Oily Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
-                src="skin/oilyskin.png"
+                src="/skin/oilyskin.png"
               />
               <h3 className="text-xl font-bold text-stone-700 mb-2">
                 Oily Skin
@@ -113,7 +113,7 @@ export default function SkinTypePage() {
               <img
                 alt="Dry Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md"
-                src="skin/dryskin2.webp"
+                src="/skin/dryskin2.webp"
               />
               <h3 className="text-xl font-bold text-stone-700 mb-2">
                 Dry Skin
@@ -129,7 +129,7 @@ export default function SkinTypePage() {
               <img
                 alt="Combination Skin"
                 className="w-40 h-40 object-cover rounded-full mb-4 shadow-md "
-                src="skin/combinationskin.png"
+                src="/skin/combinationskin.png"
               />
               <h3 className="text-xl font-bold text-stone-700 mb-2">
                 Combination Skin
