@@ -241,7 +241,7 @@ const Navbar = () => {
             href="/Gallery"
           >
             Gallery
-            <hr className="  absolute left-0 -bottom-7 h-[4px] w-0 bg-[#1893bf] 
+            <hr className=" absolute left-0 -bottom-7 h-[4px] w-0 bg-[#1893bf] 
       transition-all duration-300 ease-in-out
       group-hover:w-[60px]"></hr>
           </Link>
@@ -284,7 +284,7 @@ const Navbar = () => {
 
         <div className="flex flex-col gap-4">
           <Link href="/" onClick={()=>setIsOpen(false)} className="block active:font-semibold">Home</Link>
-          <Link  onClick={()=>setIsOpen(false)} href="/aboutus" className="block">About Us</Link>
+          <Link onClick={()=>setIsOpen(false)} href="/aboutus" className="block active:font-semibold">About Us</Link>
 
           {/* Services Accordion */}
           <Accordion type="single" collapsible>
@@ -297,13 +297,13 @@ const Navbar = () => {
                   <AccordionItem value="medical">
                     <AccordionTrigger className="">Medical</AccordionTrigger>
                     <AccordionContent className="ml-4 flex flex-col gap-2 p-2">
-                      <Link href="/services/hairfall">Hair Fall & Remedy</Link>
-                      <Link href="/services/Psoriasis">Psoriasis Treatment</Link>
-                      <Link href="/services/vitiligo">Vitiligo Treatment</Link>
-                      <Link href="/services/eczema">Eczema</Link>
-                      <Link href="/services/acne-treatment">Acne Treatment</Link>
-                      <Link href="/services/pigmentation-treatment">Pigmentation Treatment</Link>
-                      <Link href="/services/anti-aging">Anti-Aging</Link>
+                      <Link href="/services/hairfall" onClick={()=>setIsOpen(false)}>Hair Fall & Remedy</Link>
+                      <Link href="/services/Psoriasis" onClick={()=>setIsOpen(false)}>Psoriasis Treatment</Link>
+                      <Link href="/services/vitiligo-treatment" onClick={()=>setIsOpen(false)}>Vitiligo Treatment</Link>
+                      <Link href="/services/eczema" onClick={()=>setIsOpen(false)}>Eczema</Link>
+                      <Link href="/services/acne-treatment" onClick={()=>setIsOpen(false)}>Acne Treatment</Link>
+                      <Link href="/services/pigmentation-treatment" onClick={()=>setIsOpen(false)}>Pigmentation Treatment</Link>
+                      <Link href="/services/anti-aging" onClick={()=>setIsOpen(false)}>Anti-Aging</Link>
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
@@ -313,13 +313,13 @@ const Navbar = () => {
                   <AccordionItem value="surgical">
                     <AccordionTrigger>Surgical</AccordionTrigger>
                     <AccordionContent className="ml-4 flex flex-col gap-2 p-2">
-                      <Link href="/services/filler">Filler</Link>
-                      <Link href="/services/Hairtransplant">Hair Transplant</Link>
-                      <Link href="/services/acne-surgery">Acne Scar Surgery</Link>
-                      <Link href="/services/vitiligo-surgery">Vitiligo Surgery</Link>
-                      <Link href="/services/Liposuction">Liposuction / Body Sculpting</Link>
-                      <Link href="/services/surgical/emergency">Scar Revision</Link>
-                      <Link href="/services/surgical/emergency">Thread Lift</Link>
+                      <Link href="/services/filler" onClick={()=>setIsOpen(false)}>Filler</Link>
+                      <Link href="/services/Hairtransplant" onClick={()=>setIsOpen(false)}>Hair Transplant</Link>
+                      <Link href="/services/acne-surgery" onClick={()=>setIsOpen(false)}>Acne Scar Surgery</Link>
+                      <Link href="/services/vitiligo-surgery" onClick={()=>setIsOpen(false)}>Vitiligo Surgery</Link>
+                      <Link href="/services/Liposuction" onClick={()=>setIsOpen(false)}>Liposuction / Body Sculpting</Link>
+                      <Link href="/services/surgical/emergency" onClick={()=>setIsOpen(false)}>Scar Revision</Link>
+                      <Link href="/services/surgical/emergency" onClick={()=>setIsOpen(false)}>Thread Lift</Link>
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
@@ -329,9 +329,9 @@ const Navbar = () => {
           </Accordion>
 
           {/* Other Links */}
-          <Link href="/gallery" className="block">Gallery</Link>
-          <Link href="/contact" className="block">Contact Us</Link>
-          <Link href="/shop" className="block">Shop</Link>
+          <Link href="/Gallery" className="block" onClick={()=>setIsOpen(false)}>Gallery</Link>
+          <Link href="/contact" onClick={()=>setIsOpen(false)} className="block">Contact Us</Link>
+          <Link href="https://magicalballoonsdigital.com/juvenis-ecommerce/" onClick={()=>setIsOpen(false)} className="block">Shop</Link>
         </div>
 
         <Button onClick={() => router.push('/Appointment')} className="text-white bg-[#1893bf]">Book Appointment</Button>
