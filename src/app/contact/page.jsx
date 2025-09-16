@@ -103,7 +103,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center p-2 md:px-10 lg:px-30 pt-10 gap-2 md:gap-8 lg:flex-row ">
+      {/* <div className="flex flex-col justify-center p-2 md:px-10 lg:px-30 pt-10 gap-2 md:gap-8 lg:flex-row ">
 
         <div className="flex bg-[#cba176] text-white gap-3 lg:justify-center items-center p-10 rounded-2xl hover:-translate-y-2 transition-transform duration-500 ease-out hover:shadow-[0_15px_30px_-10px_rgb(227,178,133)] ">
           <div className="">
@@ -134,9 +134,40 @@ const Page = () => {
             <h3>Tuesday/Saturday/Thursday: 10 am – 5 pm</h3>
           </div>
         </div>
-      </div>
-
+      </div> */}
       
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-8 px-4 py-12 bg-white">
+  {/* Contact Card */}
+  <div className="w-72 h-auto bg-[#b98f6a] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center">
+    <div className="bg-white text-[#cba176] p-4 rounded-full mb-6 mx-auto w-fit">
+      <Phone className="size-12" />
+    </div>
+    <h2 className="text-2xl font-bold mb-2">Contact Us</h2>
+    <p className="text-base font-medium">+91 9769966696</p>
+    <p className="text-base font-medium">getyoung@juvenis.in</p>
+  </div>
+
+  {/* Location Card */}
+  <div className="w-72 h-auto bg-[#b98f6a] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center">
+    <div className="bg-white text-[#cba176] p-4 rounded-full mb-6 mx-auto w-fit">
+      <MapPin className="size-12" />
+    </div>
+    <h2 className="text-2xl font-bold mb-2">Location</h2>
+    <p className="text-base font-medium">4, Adarsh, Santacruz (W)</p>
+    <p className="text-base font-medium">Mumbai – 400 054</p>
+  </div>
+
+  {/* Time Card */}
+  <div className="w-72 h-auto bg-[#b98f6a] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center">
+    <div className="bg-white text-[#cba176] p-4 rounded-full mb-6 mx-auto w-fit">
+      <Clock4 className="size-12" />
+    </div>
+    <h2 className="text-2xl font-bold mb-2">Timings</h2>
+    <p className="text-base font-medium">Mon / Wed / Fri: 5 PM – 8 PM</p>
+    <p className="text-base font-medium">Tue / Thu / Sat: 10 AM – 5 PM</p>
+  </div>
+</div>
+
       <Footer/>
       <Copyright/>
     </div>
