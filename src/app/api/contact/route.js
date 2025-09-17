@@ -116,6 +116,6 @@ async function sendMail(data) {
 export async function POST(req) {
   const data = await req.json();
   const response = new Response(JSON.stringify({ ok: true }), { status: 200 });
-  sendMail(data);
+  await sendMail(data);
   return response;
 }
