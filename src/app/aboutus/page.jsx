@@ -20,10 +20,10 @@ const page = () => {
             Juvenis Clinic in Santacruz west, Mumbai is the creation of Dr Nilesh N Goyal, a prominent dermatosurgeon trained in India, UK and USA. The clinic caters to real world skin diseases and provides solutions for dermatologic and cosmetic issues.
         </p>
         <p>
-          Dr Nilesh Goyal has more than 30 years of experience in solving dermatologic diseases like psoriasis, eczema, vitiligo, lichen planus, acne, skin cancer and drug reactions. His training across the world has made him an expert in skin diseases affecting all skin types (white, brown, black and yellow). He has worked across continents getting trained in all types of dermatosurgery. He is an expert in skin cancer surgery (trained in UK).  
+          Dr Nilesh Goyal has more than 30 years of experience in solving dermatologic diseases like psoriasis, eczema, vitiligo, lichen planus, acne, skin cancer and drug reactions. His training across the world has made him an expert in skin diseases affecting all skin types (white, brown, black and yellow). He has worked across continents getting trained in all types of dermatosurgery. He is an expert in skin cancer surgery (trained in UK).
         </p>
         <p>
-            He is also an expert cosmetic surgeon. He does hair transplant surgery (trained in Toronto, CANADA) and Liposuction surgery (+/- fat grafting) (trained in California, USA). In addition, he is an expert in scar revision surgery and acne scar surgery. Dr Nilesh Goyal is the inventor of Triple drug combination injection for Keloids and hypertrophic scars. His invention is now adopted by the world consensus on treatments for Keloids and hypertrophic scars. Dermatologists across many countries are now using this combination for their patients with keloids.
+           He is also an expert cosmetic surgeon. He does hair transplant surgery (trained in Toronto, CANADA) and Liposuction surgery (+/- fat grafting) (trained in California, USA). In addition, he is an expert in scar revision surgery and acne scar surgery. Dr Nilesh Goyal is the inventor of Triple drug combination injection for Keloids and hypertrophic scars. His invention is now adopted by the world consensus on treatments for Keloids and hypertrophic scars. Dermatologists across many countries are now using this combination for their patients with keloids.
         </p>
         <p>
             Dr Nilesh Goyal has acquired training in lasers from his work in UK and USA. His experience has helped him achieve great results for his patients over decades. Juvenis Clinic has latest Fractional CO2 laser which helps in scars modification and skin rejuvenation. Patients can also avail of Pico laser for pigmentation removal and Laser hair reduction at the clinic.
@@ -32,7 +32,7 @@ const page = () => {
             There is a constant endeavour to bring in newer treatments that are scientifically proven to give results. Dr Nilesh Goyal travels abroad and within India for conferences and teaching assignments. He is updated with latest developments in the world of dermatology and skin care.
         </p>
         <p>
-           Dr Nilesh Goyal is the only Indian dermatologist to specialize in the manufacturing of cosmetics. He has been conferred the diploma in Cosmetic Science from the Society of Cosmetic Scientists, UK. This has led to manufacturing his own range of shampoos and conditioners which are big hit amongst his patients. Many other innovative products are in the pipeline which are aimed at improving patient outcomes. 
+           Dr Nilesh Goyal is the only Indian dermatologist to specialize in the manufacturing of cosmetics. He has been conferred the diploma in Cosmetic Science from the Society of Cosmetic Scientists, UK. This has led to manufacturing his own range of shampoos and conditioners which are big hit amongst his patients. Many other innovative products are in the pipeline which are aimed at improving patient outcomes.
         </p>
         <p>
             Juvenis Clinic offers real world solutions for all skin, hair and nail diseases. It does not believe in attracting patients by online promotions. Do not fall prey to online advertisements from dermatology clinics as you will meet a dermatologists who is only interested in doing cosmetic procedures and has no knowledge of treatment of diseases.

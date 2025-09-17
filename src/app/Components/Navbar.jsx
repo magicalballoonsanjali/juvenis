@@ -213,7 +213,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/services/"
+                href="/services/scar-revision"
                 className="block px-4 py-2 hover:bg-gray-100 hover:text-[#1893bf]"
               >
                  Scar Revision
@@ -222,7 +222,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/services"
+                href="/services/tread-lift"
                 className="block px-4 py-2 hover:bg-gray-100 hover:text-[#1893bf]"
               >
                  Thread Lift
@@ -318,8 +318,8 @@ const Navbar = () => {
                       <Link href="/services/acne-surgery" onClick={()=>setIsOpen(false)}>Acne Scar Surgery</Link>
                       <Link href="/services/vitiligo-surgery" onClick={()=>setIsOpen(false)}>Vitiligo Surgery</Link>
                       <Link href="/services/Liposuction" onClick={()=>setIsOpen(false)}>Liposuction / Body Sculpting</Link>
-                      <Link href="/services/surgical/emergency" onClick={()=>setIsOpen(false)}>Scar Revision</Link>
-                      <Link href="/services/surgical/emergency" onClick={()=>setIsOpen(false)}>Thread Lift</Link>
+                      <Link href="/services/scar-revision" onClick={()=>setIsOpen(false)}>Scar Revision</Link>
+                      <Link href="/services/thread-lift" onClick={()=>setIsOpen(false)}>Thread Lift</Link>
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
