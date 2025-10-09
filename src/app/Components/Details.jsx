@@ -32,7 +32,7 @@ const Details = () => {
                 </div>
                 <div className='text-center'>
                     <h1 className='font-bold'>4379</h1>
-                    <p className='pl-6'>Happy Patients</p>
+                    <p className='pl-6'>Happy Faces</p>
                 </div>
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center text-white gap-2'>

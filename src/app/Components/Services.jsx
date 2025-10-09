@@ -7,8 +7,7 @@ const Services = () => {
           <div className='flex justify-center items-center flex-col text-center p-8'>
                 <img src="/juvenius-bannes/female.png" alt='female'/>
                 <h3 className='font-semibold text-3xl text-[#2d2d3e] '>Services We Provide</h3>
-                <p className='font-normal p-2 text-[#888a8f]'>We Offer Different Services To Improve Your S
-                    kin Health</p>
+                <p className='font-normal p-2 text-[#888a8f]'>We Offer Different Services To Improve Your Skin Health</p>
             </div>
 
             <div id='service' className='flex flex-wrap justify-center items-start gap-6 px-4 lg:px-12'>
