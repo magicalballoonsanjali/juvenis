@@ -75,7 +75,7 @@ export default function Servicepage({ params }) {
   className="text-[#1893bf] hover:text-blue-600 hover:underline cursor-pointer transition"
 >
   {service.link}
-</Link></p>
+</Link> {service.para6half}</p>
         <p>{service.para7}</p>
         <p>{service.para8}</p>
         
