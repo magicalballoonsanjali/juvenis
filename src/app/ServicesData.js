@@ -6,13 +6,13 @@ export const ServicesData=[
     img:"/service-banners/hairfall.jpg",
     spantext:"It Starts",
     headline:"Hairfall and its remedy",
-    para1:"Today hairfall is the most common issue affecting all ages right from ages of 5years till old age. Every one has different reasons for their hairfall which usually starts as a sudden onset and can linger on for many months and years leading to significant loss of volume of hair and tinning on top of head.",
+    link:"link",
+    para1:"Today hairfall is the most common issue affecting all ages right from ages of 5 years till old age. Every one has different reasons for their hairfall which usually starts as a sudden onset and can linger on for many months and years leading to significant loss of volume of hair and tinning on top of head.",
     para2:"The most common reason for hairfall tends to be lifestyle induced stress. This stress can be physical due to long hectic hours of work or study, arising from late nights and lack of good quality sleep. To add to this, are poor eating habits like avoiding certain nutritious foods or eating at wrong times which can make one deficient in essential micronutrients required for good hair growth. Late nights cause an upset of digestive systems that cause poor absorption of nutrients from our diet, despite eating a “healthy nutritious” diet. Coupled with physical stress, is the mental stress that takes its toll on sleep and mood. This also restricts many normal physiological processes that affect our haircycle length leading to excess hairfall.",
-    para3:"To add to the stress of hairfall is the presence of dandruff that makes the scalp very greasy and hair dry and frizzy. Managing such hair tresses is very difficult and frustrating. Dandruff is sign of weakness of immune system that starts to fail under the effect of stress. This dandruff is an overgrowth of fungus, Pityrosporum ovale, which is present on the scalp of every human being and is supposed to protect us from other more infectious bacteria and fungi.",
+    para3:"To add to the stress of hairfall is the presence of dandruff that makes the scalp very greasy and hair becomes dry and frizzy. Managing such hair tresses is very difficult and frustrating. Dandruff is sign of weakness of immune system that starts to fail under the effect of stress. This dandruff is an overgrowth of fungus, Pityrosporum ovale, which is present on the scalp of every human being and is supposed to protect us from other more infectious bacteria and fungi.",
     para4:"Juvenis Clinic specializes in identifying the root cause of hairfall for each patient and tailor make treatments that will stop hairfall within 2 months and then regrow hair within the next 4 months. Emphasis is laid more on lifestyle modifications as they will help a lot in treatment outcomes. A mix of oral medications (antifungals, hair vitamins, etc) and applications that help in stopping hairfall and grow hair are given along with the right kind of shampoo and conditioner for the hair type.",
     para5:"Dr Nilesh Goyal also specializes in Nanofat/ SVF injections for hair regrowth. This is modified fat that is rich in stem cells and growth factors that helps in regrowing hair in most types of alopecia. This is proven to be far superior to PRP which has only growth factors.",
-    para6:"Genetic cause of alopecia results in patterned hair loss in males and females. This is caused by the effect of DiHydroTestosterone (DHT) on the hair cycle length and its diameter. This eventually causes roots to disappear leading to balding. This requires treatments that cut off the effect of DHT on hair roots and in some cases hair transplant surgery to fill the gaps. Juvenis clinic follows the latest technique for HT surgery ie. FUE (Follicular Unit Extraction) method of acquiring grafts and implantation with two forceps method. (link to page on hair transplant surgery)"
-
+    para6:"Genetic cause of alopecia results in patterned hair loss in males and females. It is caused by the effect of DiHydroTestosterone (DHT) on the hair cycle length and its diameter. This eventually causes roots to disappear leading to balding. Treatment is aimed to cut off the effect of DHT on hair roots in the form of DHT blockers ( 5 alpha reductase inihibitors) like Finasteride and Dutasteride along with application of Minoxidil. Hair Transplant Surgery is considered when there are gaps that are not filled with medical therapy. Juvenis clinic follows the latest technique for HT surgery ie. FUE (Follicular Unit Extraction) method of acquiring grafts and implantation with two forceps method."
    } ,
    {
     slug:"Psoriasis",
@@ -287,5 +287,25 @@ export const ServicesData=[
     images: [
       
     ]
-   },
+   },{
+    slug:"Alopecia-Areata",
+    title:"Alopecia Areata",
+    subtitle:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.",
+    img:"/service-banners/Alopecia-Areata.jpg",
+    halftitle:"",
+    spantext:"",
+    headline:"Alopecia Areata",
+    spanheadline:"A malady for many",
+    para1:"You might have heard of the term alopecia. This means hair loss. However, a type of alopecia called alopecia areata means patchy hair loss with no specific pattern. This is an autoimmune disease that has become a malady for many patients.",
+    para2:"Alopecia areata used to be a single or few areas of hair loss that would recover in most cases on its own. The patches would often by found during haircut by barbers/ salon therapists who are good at this. The disease is thought to be due to a change in immune system resulting in an attack on the hair follicles preventing them from growing out of the scalp/ skin. The patch looks clean area with no hair follicle, sometimes showing faint green black dots on surface as a reminder of the follicles underneath.",
+    para3:"Regrowth happens when the disease process is reversed. This can happen on its own or with medications that change the immune status. In the recent years this disease is taking on a very stubborn course with recurrence every time the medications are reduced or withdrawn. This causes extreme agony to patients as often it is difficult to hide the bald patches with remaining hair. this gets more difficult when the disease affects facial hairs like beard, moustache and eyebrows.",
+    para4:"Medical treatments include application of creams and oral medications only when the disease is extensive and rapidly spreading, Injections are given into the patches if there are few in number. It is not advisable to go for injections of steroids in case of large patch that has positive pull test at periphery. Also in case of multiple patches (more than 3) often the disease is spreading and would not get treated with injections alone",
+    para5:"When the disease is extensive and spreading, then oral immunosuppressives like steroids and other drugs have to be administered. Often these are needed for prolonged periods. They have side effects. The dermatologist looks into the pros and cons of each immunosuppressive pertaining  to each case and decides the best one.",
+    para6:"As the cause of this change in immune system that gives rise to alopecia areata is not known, it is found that a period of stress is common in all patients. Hence it is very important for achieving successful treatment, that there is change to healthy lifestyle. Better lifestyle habits have to be adopted. Of primary importance is the habit of sleeping early at 10pm to sync with nature. This helps in maintaining  normal metabolism and hormonal rhythm. Eating food at right times will again ensure proper digestion and nutrient absorption. These help in maintaining better immune health.",
+    para7:"Dr Nilesh Goyal is of the firm opinion that a steady decline in responsiveness in alopecia areata with frequent recurrences is due to the massive change in lifestyle brought about by our 24/7 available digital world.",
+    para8:"The biggest stress to the human body is the persistent habit of eating and sleeping at odd hours. This has a long-term deleterious effect on immune functioning resulting in autoimmune and allergic diseases and even cancer.",
+    images: [
+      
+    ]
+   }
 ]

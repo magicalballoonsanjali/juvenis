@@ -7,6 +7,7 @@ import Copyright from '../../Components/Copyright'
 import { ServicesData } from '../../ServicesData'
 import { ArrowBigLeft, ArrowBigRight} from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 export default function Servicepage({ params }) {
 
   const { slug } = React.use(params);
@@ -63,13 +64,21 @@ export default function Servicepage({ params }) {
 
       <div className="flex flex-col gap-4 px-8 text-[#747574] lg:px-40 p-8">
         <h3 className="font-semibold text-3xl pt-10 text-[#2d2d3e] ">
-          {service.headline}
+          {service.headline}; <span className='text-2xl font-light '>{service.spanheadline}</span>
         </h3>
         <p id="service">{service.para1}</p>
         <p>{service.para2}</p>
         <p>{service.para3}</p>
         <p>{service.para4}</p>
         <p>{service.para5}</p>
+        <p>{service.para6} <Link href="/services/Hairtransplant"
+  className="text-[#1893bf] hover:text-blue-600 hover:underline cursor-pointer transition"
+>
+  {service.link}
+</Link></p>
+        <p>{service.para7}</p>
+        <p>{service.para8}</p>
+        
 
          {service.treatheadline && (
   <div className="flex flex-col gap-4 ">

@@ -144,6 +144,14 @@ const Navbar = () => {
                 Anti-Aging
               </Link>
             </li>
+              <li>
+              <Link
+                href="/services/Alopecia-Areata"
+                className="block px-4 py-2 hover:bg-gray-100 hover:text-[#1893bf]"
+              >
+                Alopecia Areata
+              </Link>
+            </li>
             <li>
               <Link
                 href="/know-your-skin-type"
@@ -304,6 +312,9 @@ const Navbar = () => {
                       <Link href="/services/acne-treatment" onClick={()=>setIsOpen(false)}>Acne Treatment</Link>
                       <Link href="/services/pigmentation-treatment" onClick={()=>setIsOpen(false)}>Pigmentation Treatment</Link>
                       <Link href="/services/anti-aging" onClick={()=>setIsOpen(false)}>Anti-Aging</Link>
+                      <Link href="/services/Alopecia-Areata" onClick={()=>setIsOpen(false)}>Alopecia Areata </Link>
+                <Link href="/know-your-skin-type" onClick={()=>setIsOpen(false)}>Know your Skin Type
+                </Link>
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
