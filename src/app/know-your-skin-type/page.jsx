@@ -264,7 +264,7 @@ export default function SkinTypePage() {
               <img
                 alt="Wrinkled vs Tight skin"
                 className="w-32 h-32 object-cover rounded-full mb-4 border-4 border-[#f8dfc5] shadow-md"
-                src="skin/lipo2.jpg" 
+                src="skin/new_Wrinkled_vs_Tight.jpg" 
               />
               <h3 className="text-xl font-bold text-stone-700 mb-2">
                 Wrinkled vs Tight
