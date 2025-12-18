@@ -30,13 +30,11 @@ const Footer = () => {
             <div className='flex gap-3'>
                 <div>
                     <p>Monday - Friday</p>
-                    <p>Saturday</p>
-                    <p>Monday - Thusday</p>
+                    <p>Tuesday/wednesday/<br/>Thursday/Saturday</p>
                 </div>
                 <div>
-                    <p>9.00-7.00</p>
-                    <p>9.00-6.00</p>
-                    <p>9.00-7.30</p>
+                    <p>5 PM – 7 PM</p>
+                    <p>10 AM – 2 PM</p>
                 </div>
             </div>
         </div>

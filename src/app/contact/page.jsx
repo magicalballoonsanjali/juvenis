@@ -138,7 +138,7 @@ const Page = () => {
       
       <div className="flex flex-col lg:flex-row justify-center items-center gap-8 px-4 py-12 bg-white">
   {/* Contact Card */}
-  <div className="w-72 h-auto bg-[#b98f6a] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center">
+  <div className="w-72 h-auto bg-[#e2b284] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center">
     <div className="bg-white text-[#cba176] p-4 rounded-full mb-6 mx-auto w-fit">
       <Phone className="size-12" />
     </div>
@@ -148,24 +148,93 @@ const Page = () => {
   </div>
 
   {/* Location Card */}
-  <div className="w-72 h-auto bg-[#b98f6a] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center">
+  {/* <div className="w-72 h-auto bg-[#e2b284] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center">
     <div className="bg-white text-[#cba176] p-4 rounded-full mb-6 mx-auto w-fit">
       <MapPin className="size-12" />
     </div>
     <h2 className="text-2xl font-bold mb-2">Location</h2>
-    <p className="text-base font-medium">4, Adarsh, Santacruz (W)</p>
-    <p className="text-base font-medium">Mumbai – 400 054</p>
+    <p className="text-base font-medium">4 Adarsh, Ground floor, Behind Archies Gallery, S V Road, Santacruz (W)</p>
+    <p className="text-base font-medium">Next to Dynasty Restaurant and
+Yoko sizzlers.</p>
+    <p className="text-base font-medium">Mumbai – 400054</p>
+  </div> */}
+<div className="w-72 h-auto bg-[#e2b284] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center"  >
+
+  {/* Icon */}
+  <div className="bg-white text-[#cba176] p-4 rounded-full mb-6 mx-auto w-fit">
+    <MapPin className="size-12" />
   </div>
 
+  {/* Title */}
+  <h2 className="text-2xl font-bold mb-4 text-center">Location</h2>
+
+  {/* Address */}
+  <div className="text-sm space-y-2 text-white/95 leading-relaxed">
+
+    <p className="font-medium">
+      4 Adarsh, Ground Floor
+    </p>
+
+    <p>
+      Behind Archies Gallery,<br />
+      S V Road, Santacruz (W)
+    </p>
+
+    <p>
+      Next to Dynasty Restaurant<br />
+      & Yoko Sizzlers
+    </p>
+
+    <p className="font-semibold pt-1">
+      Mumbai – 400054
+    </p>
+
+  </div>
+</div>
+
   {/* Time Card */}
-  <div className="w-72 h-auto bg-[#b98f6a] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center">
+  {/* <div className="w-72 h-auto bg-[#e2b284] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1 text-center">
     <div className="bg-white text-[#cba176] p-4 rounded-full mb-6 mx-auto w-fit">
       <Clock4 className="size-12" />
     </div>
     <h2 className="text-2xl font-bold mb-2">Timings</h2>
-    <p className="text-base font-medium">Mon / Wed / Fri: 5 PM – 8 PM</p>
-    <p className="text-base font-medium">Tue / Thu / Sat: 10 AM – 5 PM</p>
+    <p className="text-base font-medium">Monday to Friday : 5 PM – 7 PM</p>
+    <p className="text-base font-medium">Tuesday / Wednesday / Thursday / Saturday: 10 AM – 2 PM</p>
+  </div> */}
+  <div className="w-72 h-auto bg-[#e2b284] text-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-transform duration-300 hover:-translate-y-1">
+  
+  {/* Icon */}
+  <div className="bg-white text-[#cba176] p-4 rounded-full mb-6 mx-auto w-fit">
+    <Clock4 className="size-12" />
   </div>
+
+  {/* Title */}
+  <h2 className="text-2xl font-bold mb-5 text-center">Clinic Timings</h2>
+
+  {/* Timings Table */}
+  <div className="space-y-4 text-sm">
+    
+    <div className="flex justify-between border-b border-white/30 pb-2">
+      <span className="font-medium text-white/90">
+        Monday – Friday
+      </span>
+      <span className="font-semibold">
+        5 PM – 7 PM
+      </span>
+    </div>
+
+    <div className="flex justify-between">
+      <span className="font-medium text-white/90 text-left ">
+        Tue / Wed / <br/>Thu / Sat
+      </span>
+      <span className="font-semibold text-right">
+        10 AM – 2 PM
+      </span>
+    </div>
+
+  </div>
+</div>
+
 </div>
 
       <Footer/>

@@ -8,6 +8,7 @@ import { ServicesData } from '../../ServicesData'
 import { ArrowBigLeft, ArrowBigRight} from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import ContactBanner from '@/app/Components/ContactBanner';
 export default function Servicepage({ params }) {
 
   const { slug } = React.use(params);
@@ -71,11 +72,13 @@ export default function Servicepage({ params }) {
         <p>{service.para3}</p>
         <p>{service.para4}</p>
         <p>{service.para5}</p>
-        <p>{service.para6} <Link href="/services/Hairtransplant"
+
+        <p>{service.para6} <Link href="/services/Liposuction"
   className="text-[#1893bf] hover:text-blue-600 hover:underline cursor-pointer transition"
 >
   {service.link}
 </Link> {service.para6half}</p>
+
         <p>{service.para7}</p>
         <p>{service.para8}</p>
         
@@ -146,7 +149,9 @@ export default function Servicepage({ params }) {
 
        
       </div>
-
+      <div className='mb-10'>
+      <ContactBanner/>
+      </div>
       <Footer />
       <Copyright />
     </div>

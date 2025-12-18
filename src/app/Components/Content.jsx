@@ -4,7 +4,7 @@ import React from "react";
 const Content = () => {
   return (
     <>
-      <div className="flex flex-col mt-[990px] md:mt-[750px] lg:mt-[300px] items-center  ">
+      <div className="flex flex-col mt-[1080px] md:mt-[750px] lg:mt-[300px] items-center  ">
 
         <div className="flex justify-center items-center flex-col text-center">
           <img src="/juvenius-bannes/female.png" alt="female" />
