@@ -74,6 +74,7 @@ const Form = () => {
             <input
               type="date"
               name="date"
+              placeholder="dd-mm-yyyy"
               className="border border-gray-300 rounded-md p-3 text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#1893bf]"
             />
 

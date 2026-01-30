@@ -46,7 +46,7 @@ const Page = () => {
       {/* Contact Section */}
       <div className="bg-white py-5 px-2 lg:mx-40 lg:mt-15 flex justify-center items-center shadow-2xl ">
         {/* Main container with flex-row on large screens */}
-        <div className="max-w-7xl w-full flex flex-col lg:flex-row gap-10 items-center p-10">
+        <div className="max-w-7xl w-full flex flex-col lg:flex-row gap-10 items-center px-3 md:p-10">
           {/* ✅ Left Side: Image */}
           <div className="w-full lg:w-1/2 flex justify-center items-center">
             <iframe
@@ -57,7 +57,7 @@ const Page = () => {
 
           {/* ✅ Right Side: Form */}
           <div className="w-full lg:w-1/2">
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4  p-10">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4  lg:p-10">
               <h3 className="font-bold text-3xl text-[#2d2d3e] ">
                 Contact With Us
                  <hr className="h-[3px] w-[70px] font-bold bg-[#1893bf] mt-2"></hr>

@@ -21,8 +21,9 @@ const header = () => {
 
     // </div>
     <div className="flex justify-center md:justify-between items-center gap-2 p-4 bg-[#efd5bb] text-sm w-full">
+
       {/* Social Icons */}
-      <div className="flex justify-between gap-10 items-center">
+      <div className="justify-between gap-10 items-center hidden md:flex">
         <div className="flex items-center gap-1 cursor-pointer">
           <Facebook className="w-4 text-[#1893bf]" />
           Facebook
@@ -34,7 +35,7 @@ const header = () => {
       </div>
 
       {/* Contact Info */}
-      <div className="justify-between gap-10 items-center hidden md:flex">
+      <div className="flex justify-between gap-10 items-center">
         {/* Phone link */}
         <a
           href="tel:+919769966696"
