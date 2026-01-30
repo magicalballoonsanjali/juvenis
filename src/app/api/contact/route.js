@@ -98,7 +98,7 @@ async function sendMail(data) {
         <p style="background:#f6f6f6; padding:15px; border-radius:6px; font-size:15px; color:#555;">${data.message}</p>
         
         <p style="font-size:16px; color:#333;">We look forward to seeing you!</p>
-        <p style="margin-top:30px; font-size:14px; color:#888;">Best regards,<br><strong>Your Clinic Name</strong></p>
+        <p style="margin-top:30px; font-size:14px; color:#888;">Best regards,<br><strong>Juvenis Clinic</strong></p>
       </div>
       
       <div style="background:#f4f4f4; text-align:center; padding:15px; font-size:12px; color:#999;">
