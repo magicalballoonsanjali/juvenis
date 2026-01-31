@@ -63,7 +63,7 @@ export default function Servicepage({ params }) {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 px-8 text-[#747574] lg:px-40 p-8">
+      <div className="flex flex-col gap-4 px-4 text-[#747574] lg:px-40 ">
         <h3 className="font-semibold text-3xl pt-10 text-[#2d2d3e] ">
           {service.headline}; <span className='text-2xl font-light '>{service.spanheadline}</span>
         </h3>
@@ -85,7 +85,7 @@ export default function Servicepage({ params }) {
 
          {service.treatheadline && (
   <div className="flex flex-col gap-4 ">
-    <h3 className="font-semibold text-3xl pt-10 text-[#2d2d3e] ">
+    <h3 className="font-semibold text-3xl  text-[#2d2d3e] ">
       {service.treatheadline}
     </h3>
     {service.treat1 && <p>{service.treat1}</p>}

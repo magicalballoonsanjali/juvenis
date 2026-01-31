@@ -42,7 +42,7 @@ const header = () => {
           className="flex items-center gap-1 text-inherit "
         >
           <Phone className="w-4 text-[#1893bf]" />
-          +91 9769966696
+        9769966696
         </a>
 
         {/* Email link */}
