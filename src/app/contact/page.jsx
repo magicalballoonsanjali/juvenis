@@ -20,7 +20,7 @@ const Page = () => {
      const loadingId = toast.loading("Sending message...");
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("/api/appointment", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

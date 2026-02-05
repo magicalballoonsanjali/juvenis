@@ -273,7 +273,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div>
-          <button onClick={() => router.push('/Appointment')} className="hidden md:flex text-white text-sm font-normal rounded-md p-2 bg-[#1893bf] ">
+          <button onClick={() => router.push('/Appointment')} className="hidden md:flex text-white text-sm font-normal rounded-md p-2 bg-[#1893bf]  hover:bg-[#147ba1]">
             Book Appointment
           </button>
         </div>
@@ -345,7 +345,7 @@ const Navbar = () => {
           <Link href="https://magicalballoonsdigital.com/juvenis-ecommerce/" onClick={()=>setIsOpen(false)} className="block">Shop</Link>
         </div>
 
-        <Button onClick={() => { router.push('/Appointment'); setIsOpen(false) }} className="text-white bg-[#1893bf]">Book Appointment</Button>
+        <Button onClick={() => { router.push('/Appointment'); setIsOpen(false) }} className=" text-white bg-[#1893bf]">Book Appointment</Button>
       </div>
     </SheetHeader>
   </SheetContent>
