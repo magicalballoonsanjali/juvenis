@@ -63,7 +63,7 @@ async function sendMail(data) {
  await transporter.sendMail({
   from:`"Juvenis Clinic" <${process.env.GMAIL_USER}>`,
   to: data.email,
-  subject: `✅ Appointment Confirmed – ${data.name}`,
+  subject: `✅ Appointment Request Submitted – ${data.name}`,
   html: `
   <div style="background:#f4f4f4; padding:40px 0; font-family:Arial,Helvetica,sans-serif;">
     <div style="max-width:600px; margin:0 auto; background:#ffffff; border-radius:8px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
@@ -98,7 +98,7 @@ async function sendMail(data) {
         <p style="font-weight:bold; margin-top:20px; color:#333;">Message:</p>
         <p style="background:#f6f6f6; padding:15px; border-radius:6px; font-size:15px; color:#555;">${data.message}</p>
         
-        <p style="font-size:16px; color:#333;">We look forward to seeing you!</p>
+        <p style="font-size:16px; color:#333;">Our team will get in touch with you shortly to confirm your appointment and assist you further.</p>
         <p style="margin-top:30px; font-size:14px; color:#888;">Best regards,<br><strong>Juvenis Clinic</strong></p>
       </div>
       
