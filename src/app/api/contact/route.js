@@ -10,8 +10,9 @@ async function sendMail(data) {
   });
 
  await transporter.sendMail({
-  from: process.env.GMAIL_USER,
+  from: `"Website Appointment" <${process.env.GMAIL_USER}>`,
   to: process.env.GMAIL_USER, // your email (receptionist)
+  replyTo: data.email,
   subject: `📩 New Appointment Request from ${data.name}`,
   html: `
   <div style="background:#f4f4f4; padding:40px 0; font-family:Arial,Helvetica,sans-serif;">
@@ -60,7 +61,7 @@ async function sendMail(data) {
 
 
  await transporter.sendMail({
-  from: process.env.GMAIL_USER,
+  from:`"Juvenis Clinic" <${process.env.GMAIL_USER}>`,
   to: data.email,
   subject: `✅ Appointment Confirmed – ${data.name}`,
   html: `
