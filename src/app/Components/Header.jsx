@@ -30,7 +30,7 @@ const header = () => {
         </div>
         <div className="flex items-center gap-1 cursor-pointer">
           <Instagram className="w-4 text-[#1893bf]" />
-          Instagram
+          Instagramm
         </div>
       </div>
 
