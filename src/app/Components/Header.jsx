@@ -47,11 +47,11 @@ const header = () => {
 
         {/* Email link */}
         <a
-          href="mailto:getyoung@juvenis.com"
+          href="mailto:getyoung@juvenis.in"
           className="flex items-center gap-1 text-inherit"
         >
           <Mail className="w-4 text-[#1893bf]" />
-          getyoung@juvenis.com
+          getyoung@juvenis.in
         </a>
       </div>
     </div>
