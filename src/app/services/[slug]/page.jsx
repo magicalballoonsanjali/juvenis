@@ -79,8 +79,9 @@ export default function Servicepage({ params }) {
   {service.link}
 </Link> {service.para6half}</p>
 
-        <p>{service.para7}</p>
-        <p>{service.para8}</p>
+        <p>{service.para7} <Link href="https://istalipo.org/" className="text-[#1893bf] hover:text-blue-600 hover:underline cursor-pointer transition">{service.para7link}</Link></p>
+
+        <p>{service.para8} <Link href="https://lipodermforum.in/" className="text-[#1893bf] hover:text-blue-600 hover:underline cursor-pointer transition">{service.para8link}</Link> {service.para8half}</p>
         
 
          {service.treatheadline && (
