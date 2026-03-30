@@ -39,6 +39,8 @@ const Form = () => {
     }
 
   }
+
+
   return (
     <>
      <div id="contact" className='flex justify-center items-center flex-col text-center p-8'>
@@ -99,12 +101,42 @@ const Form = () => {
           <img
             src="/juvenius-bannes/contact-img.png" // replace with your actual path
             alt="Doctors"
-            className="w-full max-w-sm object-contain"
+            className="w-ful l max-w-sm object-contain"
           />
         </div>
       </div>
     </div>
-    </>
+
+
+    {/*
+
+     use databasename 
+    cr eate table student(rollno int primary key,name varchar(90));
+    select * from student;
+    insert into student(id,name,rollno) values(1,"insajali",109)
+    insert into student(id,name,rollno) values(2,"isha",239)
+    insert into student(id,name,rollno) values (3,"yash",1980);
+     
+
+
+    CREATE DATABASE XYZ
+    
+    USE XYZ
+
+    CREATE TABLE employe (id INT PRIMARY KEY, name VARCHAR(30),salary INT)
+
+
+    INSERT INTO employee(id,name,salary) VALUES(1,"ram",200000)
+    INSERT INTO employee(id,name,salary) VALUES(1,"shyam",500000)
+    INSERT INTO employee(id,name,salary) VALUES(1,"ravan",2000)
+
+    
+    select * from Xyz
+    
+*/}
+
+
+    </> 
   )
 }
 export default Form;

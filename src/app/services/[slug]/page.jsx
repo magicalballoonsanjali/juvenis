@@ -11,10 +11,12 @@ import Link from 'next/link';
 import ContactBanner from '@/app/Components/ContactBanner';
 export default function Servicepage({ params }) {
 
+
   const { slug } = React.use(params);
     const router = useRouter();
 
   const service = ServicesData.find((item) => item.slug === slug);
+
 
 
   const images = service?.images || [];
@@ -102,7 +104,7 @@ export default function Servicepage({ params }) {
 
 
     {images.length > 0 && (
-  <div className=" pt-5">
+  <div className=" pt-5 flex flex-col gap-5">
     <h2 className="text-2xl font-bold text-stone-700 mb-4">Results</h2>
 
     <div className="relative flex items-center justify-center">
@@ -145,7 +147,50 @@ export default function Servicepage({ params }) {
      <ArrowBigRight />
       </button>
     </div>
+
+    {/* video */}
+    {(service.videosrc)?<div> <h2 className="text-2xl font-bold text-stone-700 mb-4">Video</h2>
+
+    <div className="relative flex items-center justify-center ">
+
+      {/* Prev button */}
+      {/* <button
+        onClick={handlePrev}
+        className="absolute left-0 top-1/2 -translate-y-1/2 bg-black text-white px-3 py-2 rounded opacity-45 z-50  hover:opacity-80"
+      >
+       <ArrowBigLeft />
+      </button> */}
+
+      {/* video */}
+     <div className="flex gap-4 overflow-hidden justify-center">
+  
+    <div
+      className="
+        flex-shrink-0
+        transform
+        transition-transform
+        duration-300
+        ease-in-out
+        hover:scale-105 md:pl-10
+      "
+    >
+      <iframe className="w-80 h-80 md:w-200 md:h-96 object-cover rounded-lg shadow-lg" src={service.videosrc} allowFullScreen ></iframe>
+    </div>
+
+</div>
+
+      {/* Next button */}
+      {/* <button
+        onClick={handleNext}
+        className="absolute right-0 top-1/2 -translate-y-1/2 bg-black text-white px-3 py-2 rounded opacity-45 z-50 hover:opacity-80"
+      >
+     <ArrowBigRight />
+      </button> */}
+    </div>
+    </div>:<div> </div>}
+   
   </div>
+
 )}
 
        
