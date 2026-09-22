@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { CalendarDays, MapPin, ArrowUpRight } from "lucide-react";
+import { CalendarDays, MapPin, ArrowUpRight, Download } from "lucide-react";
 
 const workshops = [
   {
@@ -11,27 +11,27 @@ const workshops = [
     location: "Mumbai, India",
     image: "/workshop/01.jpg",
   },
-  {
-    id: 2,
-    title: "International Faculty",
-    date: "25th – 27th October 2026",
-    location: "Mumbai, India",
-    image: "/workshop/02.jpg",
-  },
-  {
-    id: 3,
-    title: "Detailed Program",
-    date: "25th October 2026",
-    location: "Khar West, Mumbai",
-    image: "/workshop/03.jpg",
-  },
-  {
-    id: 4,
-    title: "Course Highlights",
-    date: "26th & 27th October 2026",
-    location: "Lilavati Hospital, Mumbai",
-    image: "/workshop/04.jpg",
-  },
+//   {
+//     id: 2,
+//     title: "International Faculty",
+//     date: "25th – 27th October 2026",
+//     location: "Mumbai, India",
+//     image: "/workshop/02.jpg",
+//   },
+//   {
+//     id: 3,
+//     title: "Detailed Program",
+//     date: "25th October 2026",
+//     location: "Khar West, Mumbai",
+//     image: "/workshop/03.jpg",
+//   },
+//   {
+//     id: 4,
+//     title: "Course Highlights",
+//     date: "26th & 27th October 2026",
+//     location: "Lilavati Hospital, Mumbai",
+//     image: "/workshop/04.jpg",
+//   },
 ];
 
 const Page = () => {
@@ -79,38 +79,6 @@ const Page = () => {
       <section className="px-6 py-20 sm:px-10 lg:px-[8%] lg:py-28">
 
         <div className="mx-auto max-w-7xl">
-
-          {/* SECTION HEADER */}
-
-          <div className="mb-14 flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
-
-            <div>
-              <span className="text-[10px] font-extrabold tracking-[0.3em] text-[#a07c24]">
-                UPCOMING PROGRAM
-              </span>
-
-              <h2 className="mt-4 text-4xl font-semibold leading-[0.95] tracking-[-0.04em] sm:text-5xl lg:text-6xl">
-                Liposuction & Fat
-                <br />
-                <span className="font-normal text-[#a07c24]">
-                  Grafting 2026
-                </span>
-              </h2>
-            </div>
-
-<div className="flex gap-3 flex-col justify-start items-start">
-
-     <p className="max-w-md text-sm leading-7 text-gray-500">
-              A three-day international hands-on training course
-              featuring experienced national and international faculty.
-            </p>
-
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeU9V3hmhFnlB89T95S1QosayKQrQPrT9pPu__DlkXsowQeuA/viewform" className="bg-[#FE033B] text-sm leading-7 text-white px-2 p-1 rounded-full">Click Here To Register</a>
-</div>
-       
-          </div>
-
-
           {/* WORKSHOP GRID */}
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
@@ -132,11 +100,7 @@ const Page = () => {
                     className="h-auto w-full object-cover transition-transform duration-700 group-hover:scale-[1.025]"
                   />
 
-                  {/* NUMBER */}
-
-                  {/* <div className="absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-full bg-[#10145c] text-xs font-bold text-white">
-                    0{index + 1}
-                  </div> */}
+              
 
                 </div>
 
@@ -158,23 +122,32 @@ const Page = () => {
 
                   <div className="mt-6 space-y-3 border-t border-gray-200 pt-5">
 
-                    <div className="flex items-center gap-3 text-xs text-gray-500">
+                    <div className="flex items-center gap-3 text-xs text-gray-500 justify-between">
+
+                        <div className="flex gap-2">
+
                       <CalendarDays
                         size={17}
                         className="shrink-0 text-[#a07c24]"
                       />
 
                       <span>{workshop.date}</span>
+                    
+                    </div>
+
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeU9V3hmhFnlB89T95S1QosayKQrQPrT9pPu__DlkXsowQeuA/viewform" className="bg-[#FE033B] text-sm leading-7 text-white px-2 p-1 rounded-full">Register Now</a>
+
+                      <a href="/workshop/liposuction-workshop.pdf" download>
+  <Download size={20} />
+</a>
+
                     </div>
 
                    
 
                   </div>
 
-
-                  {/* BUTTON */}
-
-                  
+           
 
                 </div>
 
@@ -211,16 +184,14 @@ const Page = () => {
 
           </div>
 
-          <p className="max-w-md text-sm leading-7 text-white/60">
-            Our workshops combine expert knowledge with practical,
-            hands-on learning to provide a focused professional
-            training experience.
-          </p>
-
+         
+          
         </div>
 
       </section>
-
+<section>
+    
+</section>
     </main>
   );
 };

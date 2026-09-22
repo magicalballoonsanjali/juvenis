@@ -273,7 +273,7 @@ const Navbar = () => {
           </Link>
           <Link
             className="relative group inline-block hover:text-[#1893bf]"
-            href="/workshop"
+            href="/workshops"
           >
             WorkShop
             <hr className="  absolute left-0 -bottom-7 h-[4px] w-0 bg-[#1893bf] 
@@ -353,7 +353,7 @@ const Navbar = () => {
           <Link href="/contact" onClick={()=>setIsOpen(false)} className="block">Contact Us</Link>
           <Link href="https://juvenisinnovations.in/" onClick={()=>setIsOpen(false)} className="block">Shop</Link>
 
-          <Link href="/workshop" onClick={()=>setIsOpen(false)} className="block">WorkShop</Link>
+          <Link href="/workshops" onClick={()=>setIsOpen(false)} className="block">WorkShop</Link>
         </div>
 
         <Button onClick={() => { router.push('/Appointment'); setIsOpen(false) }} className=" text-white bg-[#1893bf] hover:bg-[#147ba1]">Book Appointment</Button>
