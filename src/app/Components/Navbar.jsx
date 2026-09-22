@@ -264,9 +264,18 @@ const Navbar = () => {
           </Link>
           <Link
             className="relative group inline-block hover:text-[#1893bf]"
-            href="https://magicalballoonsdigital.com/juvenis-ecommerce"
+            href="https://juvenisinnovations.in/"
           >
             Shop
+            <hr className="  absolute left-0 -bottom-7 h-[4px] w-0 bg-[#1893bf] 
+      transition-all duration-300 ease-in-out
+      group-hover:w-[50px]"></hr>
+          </Link>
+          <Link
+            className="relative group inline-block hover:text-[#1893bf]"
+            href="/workshop"
+          >
+            WorkShop
             <hr className="  absolute left-0 -bottom-7 h-[4px] w-0 bg-[#1893bf] 
       transition-all duration-300 ease-in-out
       group-hover:w-[50px]"></hr>
@@ -342,7 +351,9 @@ const Navbar = () => {
           {/* Other Links */}
           <Link href="/Gallery" className="block" onClick={()=>setIsOpen(false)}>Gallery</Link>
           <Link href="/contact" onClick={()=>setIsOpen(false)} className="block">Contact Us</Link>
-          <Link href="https://magicalballoonsdigital.com/juvenis-ecommerce/" onClick={()=>setIsOpen(false)} className="block">Shop</Link>
+          <Link href="https://juvenisinnovations.in/" onClick={()=>setIsOpen(false)} className="block">Shop</Link>
+
+          <Link href="/workshop" onClick={()=>setIsOpen(false)} className="block">WorkShop</Link>
         </div>
 
         <Button onClick={() => { router.push('/Appointment'); setIsOpen(false) }} className=" text-white bg-[#1893bf] hover:bg-[#147ba1]">Book Appointment</Button>
