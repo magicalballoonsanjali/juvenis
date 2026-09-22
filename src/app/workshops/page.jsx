@@ -128,7 +128,7 @@ const Page = () => {
                       {" "}
                       {/* KNOW MORE */}{" "}
                       <a
-                        href={workshop.pdf}
+                        href="/workshop/liposuction-workshop.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-1.5 rounded-full bg-[#253B5B] px-4 py-2 text-[12px] font-semibold uppercase tracking-wider text-white transition-all duration-300 hover:bg-[#1893BF]"
@@ -137,10 +137,9 @@ const Page = () => {
                         Know More <ExternalLink size={13} />{" "}
                       </a>{" "}
                       {/* DOWNLOAD */}{" "}
-                      <a
-                        href={workshop.pdf}
+                       <a
+                        href="/workshop/liposuction-workshop.pdf"
                         download
-                        aria-label={`Download ${workshop.title} PDF`}
                         className="flex h-9 w-9 items-center justify-center rounded-full border border-[#d9d4ce] text-[#253B5B] transition-all duration-300 hover:border-[#a07c24] hover:bg-[#a07c24] hover:text-white"
                       >
                         {" "}
@@ -152,9 +151,7 @@ const Page = () => {
                   <div className="mt-5 border-t border-[#ece9e5] pt-5">
                     {" "}
                     <a
-                      href={workshop.register}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSeU9V3hmhFnlB89T95S1QosayKQrQPrT9pPu__DlkXsowQeuA/viewform"
                       className="flex w-full items-center justify-center rounded-full bg-[#FE033B] px-5 py-3 text-xl font-semibold text-white transition-all duration-300 hover:scale-[1.01] hover:bg-[#e60035]"
                     >
                       {" "}
