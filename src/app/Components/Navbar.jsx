@@ -255,6 +255,16 @@ const Navbar = () => {
           </Link>
           <Link
             className="relative group inline-block hover:text-[#1893bf]"
+            href="/workshops"
+          >
+            WorkShop
+            <hr className="  absolute left-0 -bottom-7 h-[4px] w-0 bg-[#1893bf] 
+      transition-all duration-300 ease-in-out
+      group-hover:w-[50px]"></hr>
+          </Link>
+
+          <Link
+            className="relative group inline-block hover:text-[#1893bf]"
             href="/contact"
           >
             Contact Us
@@ -271,15 +281,7 @@ const Navbar = () => {
       transition-all duration-300 ease-in-out
       group-hover:w-[50px]"></hr>
           </Link>
-          <Link
-            className="relative group inline-block hover:text-[#1893bf]"
-            href="/workshops"
-          >
-            WorkShop
-            <hr className="  absolute left-0 -bottom-7 h-[4px] w-0 bg-[#1893bf] 
-      transition-all duration-300 ease-in-out
-      group-hover:w-[50px]"></hr>
-          </Link>
+          
         </div>
         <div>
           <button onClick={() => router.push('/Appointment')} className="hidden md:flex text-white text-sm font-normal rounded-md p-2 bg-[#1893bf]  hover:bg-[#147ba1]">
@@ -350,10 +352,11 @@ const Navbar = () => {
 
           {/* Other Links */}
           <Link href="/Gallery" className="block" onClick={()=>setIsOpen(false)}>Gallery</Link>
+          <Link href="/workshops" onClick={()=>setIsOpen(false)} className="block">WorkShop</Link>
           <Link href="/contact" onClick={()=>setIsOpen(false)} className="block">Contact Us</Link>
           <Link href="https://juvenisinnovations.in/" onClick={()=>setIsOpen(false)} className="block">Shop</Link>
 
-          <Link href="/workshops" onClick={()=>setIsOpen(false)} className="block">WorkShop</Link>
+          
         </div>
 
         <Button onClick={() => { router.push('/Appointment'); setIsOpen(false) }} className=" text-white bg-[#1893bf] hover:bg-[#147ba1]">Book Appointment</Button>
